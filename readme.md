@@ -39,7 +39,7 @@ The analyzed data, which includes the predicted positions of the body parts, is 
 The processed data is plotted to visualize the movement patterns of the different body parts over time. Line plots can be created to show the relative locations of the body parts throughout the video. Bar plots are used to compare the total movement of each body part, providing insights into the dominant organ used during the shrew's hunting behavior. Additionally, 3D plots can be generated to visualize the spread of movement for specific body parts, such as the nose tip.
 
 ## Results and Discussion
-![](body parts location in time.png)
+![](body-parts-location-in-time.png)
 **Figure 1: Body parts location in time**
 
 An overview of the relative locations of different body parts over the course of the video. Each line represents the trajectory of a specific body part, showing how its coordinates change over time.
@@ -48,7 +48,7 @@ The magnitude of changes in the coordinates of a body part serves as an indicato
 
 This analysis provides valuable insights into the shrew's sensory perception and its reliance on specific body parts during the hunting process. By examining the body parts' location trends, we can gain a deeper understanding of the shrew's behavior and the role played by different sensory organs.
 
-![](Body parts movement.png)
+![](Body-parts-movement.png)
 **Figure 2: Body parts movement**
 
 Second plot provides insights into the total movement exhibited by different body parts throughout the video. Each bar represents a specific body part, and the height of the bar indicates the total amount of movement observed for that body part.
