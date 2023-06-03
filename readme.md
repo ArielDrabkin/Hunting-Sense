@@ -1,7 +1,6 @@
 # Hunting-Sense
 <video width="640" height="480" controls>
-  <source src="VID_20200707_120039DLC_resnet50_eating shrewJul7shuffle1_18000_labeled.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  <source src="https://drive.google.com/file/d/1kAw5IfweQJYCx5Q9mdGaKZ28Qc9zWg4N/view?usp=drive_link" type="video/mp4">
 </video>
 
 ## Overview
