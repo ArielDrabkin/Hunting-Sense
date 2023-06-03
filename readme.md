@@ -1,7 +1,7 @@
 # Hunting-Sense
 <div align="center">
-    <a href="https://youtu.be/9I0iE0lmb7M"><img src="huntingshrew.jpg" alt="Video Thumbnail" width="470" height="320">  </a>  
-    *Click for the full video*
+    <a href="https://youtu.be/9I0iE0lmb7M"><img src="huntingshrew.jpg" alt="Video Thumbnail" width="500" height="320">  </a>  
+    <p><em>Click for the full video</em></p>
 </div>
 
 ## Overview
