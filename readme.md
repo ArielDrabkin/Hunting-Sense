@@ -41,9 +41,8 @@ The processed data is plotted to visualize the movement patterns of the differen
 ## Results and Discussion
 <div align="center">
   <img src="body-parts-location-in-time.png">
-</div>  
-
-**Figure 1: Body parts location in time**  
+  <p><strong>Figure 1: Body parts location in time</strong></p>
+</div>
 
 An overview of the relative locations of different body parts over the course of the video. Each line represents the trajectory of a specific body part, showing how its coordinates change over time.
 
@@ -52,10 +51,12 @@ The magnitude of changes in the coordinates of a body part serves as an indicato
 This analysis provides valuable insights into the shrew's sensory perception and its reliance on specific body parts during the hunting process. By examining the body parts' location trends, we can gain a deeper understanding of the shrew's behavior and the role played by different sensory organs.
 
 <div align="center">
-  <img src="Body-parts-movement.png">
-</div>  
+  <img src="Body-parts-movement.png" alt="Body parts movement">
+  <p><strong>Figure 2: Body parts movement</strong></p>
+</div>
 
-**Figure 2: Body parts movement**  
+
+ 
 
 Second plot provides insights into the total movement exhibited by different body parts throughout the video. Each bar represents a specific body part, and the height of the bar indicates the total amount of movement observed for that body part.
 
@@ -67,9 +68,10 @@ By identifying the body part with the highest movement, we gain valuable insight
 
 <div align="center">
   <img src="Nose-tip-3D-movement.png">
+  <p><strong>Figure 3: Nose-tip 3D movement</strong></p>
 </div>  
 
-**Figure 3: Nose-tip 3D movement**   
+  
 The third plot provides a 3D visualization of the nose-tip's movement throughout the video. The plot shows the spread of the nose-tip's movement in the x, y, and z directions. The plot also shows the nose-tip's trajectory, which indicates the direction of movement. The plot provides a visual representation of the nose-tip's movement which located around the prey location
 
 
