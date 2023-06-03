@@ -4,7 +4,7 @@
 ## Overview
 The Etruscan shrew (Suncus etruscus) is considered the smallest extant mammal, with an average mass of less than 2g [1]. Due to its extremely small size, the Etruscan shrew has a large surface-to-volume ratio, resulting in significant heat loss to the environment. To maintain a constant body temperature, it must consume about 1.5-2.9 times its own body weight in food per day, making it the mammal with the highest mass-specific energy consumption [2].
 
-This research project was part of my MSc in environmental science, and it aims to understand the dominant sense used by the Etruscan shrew to find prey during the summer. To achieve this, a 3D markerless pose estimation tool based on transfer learning with deep neural networks is employed. This tool enables the tracking and modeling of the shrew's movement, allowing for the analysis of behaviors such as foraging and a comparison between different seasons when the shrew's brain size varies. By investigating the impact of "Dehnel's phenomenon" on cognition and behavior, a broader understanding of the shrew's hunting sense can be obtained.
+This research project was part of my MSc in computational environmental science, and it aims to understand the dominant sense used by the Etruscan shrew to find prey during the summer. To achieve this, a 3D markerless pose estimation tool based on transfer learning with deep neural networks is employed. This tool enables the tracking and modeling of the shrew's movement, allowing for the analysis of behaviors such as foraging and a comparison between different seasons when the shrew's brain size varies. By investigating the impact of "Dehnel's phenomenon" on cognition and behavior, a broader understanding of the shrew's hunting sense can be obtained.
 
 ## Repository Structure
 - `labeled_video.mp4`: This file contains the labeled video, where body parts of the shrew have been annotated.
@@ -73,9 +73,7 @@ By identifying the body part with the highest movement, we gain valuable insight
 </div>  
 
   
-The third plot provides a 3D visualization of the nose-tip's movement throughout the video. The plot shows the spread of the nose-tip's movement in the x, y, and z directions. The plot also shows the nose-tip's trajectory, which indicates the direction of movement. The plot provides a visual representation of the nose-tip's movement which located around the prey location
-
-
+The third plot provides a 3D visualization of the nose-tip's movement throughout the video. The plot shows the spread of the nose-tip's movement in the x, y, and z directions. The plot also shows the nose-tip's trajectory, which indicates the direction of movement. The plot provides a visual representation of the nose-tip's movement which located around the prey.
 ## References
 1. Fons, R., Sender, S., Peters, T., & Jürgens, K. D. (1997). Rates of rewarming, heart and respiratory rates and their significance for oxygen transport during arousal from torpor in the smallest mammal, the Etruscan shrew Suncus etruscus. *J. Exp. Biol.*, 200, 1451–1458.
 2. Akhlaq, H., Hishmi, J., & Talmale, S. (2017). New Record Of Suncus etruscus (Savi, 1822), The Pygmy White-toothed Shrew (soricidae: Soricomorpha: Mammalia) From Madhya Pradesh, India With Notes On Systematics, Status Of Records And Distribution Chee. *Vol.3, 54*.
