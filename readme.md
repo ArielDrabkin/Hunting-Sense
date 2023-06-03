@@ -44,7 +44,7 @@ The processed data is plotted to visualize the movement patterns of the differen
 
 ## Results and Discussion
 <div align="center">
-  <img src="body-parts-location-in-time.png">
+  <img src="body-parts-location-in-time.png" width="500" height="320">
   <p><strong>Figure 1: Body parts location in time</strong></p>
 </div>
 
@@ -55,7 +55,7 @@ The magnitude of changes in the coordinates of a body part serves as an indicato
 This analysis provides valuable insights into the shrew's sensory perception and its reliance on specific body parts during the hunting process. By examining the body parts' location trends, we can gain a deeper understanding of the shrew's behavior and the role played by different sensory organs.
 
 <div align="center">
-  <img src="Body-parts-movement.png" alt="Body parts movement">
+  <img src="Body-parts-movement.png" alt="Body parts movement" width="500" height="320">
   <p><strong>Figure 2: Body parts movement</strong></p>
 </div>
 
@@ -71,7 +71,7 @@ While other body parts also exhibit movement, the nose-tip's dominance in terms 
 By identifying the body part with the highest movement, we gain valuable insights into the shrew's sensory hierarchy and the specific sense it utilized most prominently during the hunting behavior. In this case, the nose-tip's extensive movement highlights the importance of olfaction in the shrew's hunting strategy.
 
 <div align="center">
-  <img src="Nose-tip-3D-movement.png">
+  <img src="Nose-tip-3D-movement.png" width="500" height="320">
   <p><strong>Figure 3: Nose-tip 3D movement</strong></p>
 </div>  
 
