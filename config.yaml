@@ -1,53 +1,38 @@
 # Project definitions (do not edit)
-Task: Feeding bat
+Task: eating shrew
 scorer: Ariel
-date: Jul8
+date: Jul7
 
 # Project path (change when moving around)
-project_path: C:\Users\ariel\OneDrive\Рабочий стол\Feeding bat-Ariel-2020-07-08
+project_path: /content/drive/My Drive/eating shrew-Ariel-2020-07-07
 
 # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
-  C:\Users\ariel\OneDrive\Рабочий стол\Feeding bat-Ariel-2020-07-08\videos\feeding bat.MP4:
-    crop:  0, 352, 0, 288
+  /content/drive/My Drive/eating shrew-Ariel-2020-07-07/videos/VID_20200707_120039.mp4:
+    crop: 0, 352, 0, 288
 bodyparts:
-- adult mouth
-- adult nose
-- adult rightear
-- adult forehead
-- adult left ear
-- young mouth
-- young nose
-- young right ear
-- young forehead
-- young left ear
+- Nosetip
+- rightwhiskers
+- leftwhiskers
+- rightear
+- leftear
 start: 0
 stop: 1
 numframes2pick: 40
 
 # Plotting configuration
 skeleton:
-- - adult mouth
-  - adult nose
-- - adult nose
-  - adult right ear
-- - adult nose
-  - adult left ear
-- - adult right ear
-  - adult forehead
-- - adult left ear
-  - adult forehead
+- - Nosetip
+  - rightwhiskers
+- - Nosetip
+  - leftwhiskers
+- - leftwhiskers
+  - leftear
+- - rightwhiskers
+  - rightear
+- - rightear
+  - leftear
 
-- - young mouth
-  - young nose
-- - young nose
-  - young right ear
-- - young nose
-  - young left ear
-- - young right ear
-  - young forehead
-- - young left ear
-  - young forehead
 skeleton_color: black
 pcutoff: 0.6
 dotsize: 12
