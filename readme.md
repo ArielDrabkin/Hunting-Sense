@@ -7,12 +7,13 @@ The Etruscan shrew (Suncus etruscus) is considered the smallest extant mammal, w
 This research project was part of my MSc in environmental science, and it aims to understand the dominant sense used by the Etruscan shrew to find prey during the summer. To achieve this, a 3D markerless pose estimation tool based on transfer learning with deep neural networks is employed. This tool enables the tracking and modeling of the shrew's movement, allowing for the analysis of behaviors such as foraging and a comparison between different seasons when the shrew's brain size varies. By investigating the impact of "Dehnel's phenomenon" on cognition and behavior, a broader understanding of the shrew's hunting sense can be obtained.
 
 ## Repository Structure
-**labeled_video.mp4:** This file contains the labeled video, where body parts of the shrew have been annotated.
-**main.py:** This is the main script used for analyzing the feeding shrew data. It performs various tasks such as creating a new project, extracting frames, labeling body parts, training the network, analyzing videos, and plotting the results.
-**DLC-CPU.YAML:** This YAML file specifies the requirements for running DeepLabCut on a CPU. It contains the necessary configurations and dependencies.
-**plots:** The generated plots during the analysis. It includes the plots of body parts location in time, body parts movement, and nose tip 3D movement.
-**README.md:** This markdown file serves as the summary of the project. It provides an overview of the project, the results obtained from the analysis, and a discussion of the findings.
-**config.yaml:** This DeepLabCut configuration file is used for labeling and analysis. It contains parameters for labeling the body parts to be tracked and specifying the training and analysis settings.
+- `labeled_video.mp4`: This file contains the labeled video, where body parts of the shrew have been annotated.
+- `main.py`: This is the main script used for analyzing the feeding shrew data. It performs various tasks such as creating a new project, extracting frames, labeling body parts, training the network, analyzing videos, and plotting the results.
+- `DLC-CPU.YAML`: This YAML file specifies the requirements for running DeepLabCut on a CPU. It contains the necessary configurations and dependencies.
+- `plots`: The generated plots during the analysis. It includes the plots of body parts location in time, body parts movement, and nose tip 3D movement.
+- `README.md`: This markdown file serves as the summary of the project. It provides an overview of the project, the results obtained from the analysis, and a discussion of the findings.
+- `config.yaml`: This DeepLabCut configuration file is used for labeling and analysis. It contains parameters for labeling the body parts to be tracked and specifying the training and analysis settings.
+
 ## Data
 Two data files were used for this project. The first file contained a video of a shrew preying on a mealworm, which was analyzed using the 'Deeplabcut' package [4]. This package, based on deep learning methods, facilitated the identification of specific organs related to sensory activity, such as the nose tip (smell), whiskers (sensing), and ears (hearing). The data obtained from this analysis were saved in a CSV file for further investigation.
 
