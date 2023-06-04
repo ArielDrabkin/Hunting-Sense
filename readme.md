@@ -39,9 +39,6 @@ Once the network is trained, it can be used to analyze new videos. The trained n
 ### Part 5 - Data Analysis
 The analyzed data, which includes the predicted positions of the body parts, is processed for further analysis. The data is loaded into a dataframe, and any unnecessary columns, such as likelihood values, are dropped. The data is then cleaned and prepared for visualization and interpretation.
 
-### Part 6 - Plotting
-The processed data is plotted to visualize the movement patterns of the different body parts over time. Line plots can be created to show the relative locations of the body parts throughout the video. Bar plots are used to compare the total movement of each body part, providing insights into the dominant organ used during the shrew's hunting behavior. Additionally, 3D plots can be generated to visualize the spread of movement for specific body parts, such as the nose tip.
-
 ## Results and Discussion
 <div align="center">
   <img src="body-parts-location-in-time.png" width="500" height="320">
