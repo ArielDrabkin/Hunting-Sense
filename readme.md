@@ -1,21 +1,22 @@
 # Hunting-Sense
 <div align="center">
-    <a href="https://youtu.be/9I0iE0lmb7M"><img src="Images/huntingshrew.jpg" alt="Video Thumbnail" width="500" height="320">  </a>  
+    <a href="https://youtu.be/9I0iE0lmb7M"><img src="plots/huntingshrew.jpg" alt="Video Thumbnail" width="500" height="320">  </a>  
     <p><em>Click for the full video</em></p>
 </div>
 
 ## Overview
 The Etruscan shrew (*Suncus etruscus*) is considered the smallest extant mammal, with an average mass of less than 2g [1]. Due to its extremely small size, the Etruscan shrew has a large surface-to-volume ratio, resulting in significant heat loss to the environment. To maintain a constant body temperature, it must consume about 1.5-2.9 times its own body weight in food per day, making it the mammal with the highest mass-specific energy consumption [2].
 
-This research project was part of my MSc in computational environmental science, and it aims to understand the dominant sense used by the Etruscan shrew to find prey during the summer. To achieve this, a 3D markerless pose estimation tool based on transfer learning with deep neural networks is employed. This tool enables the tracking and modeling of the shrew's movement, allowing for the analysis of behaviors such as foraging and a comparison between different seasons when the shrew's brain size varies. By investigating the impact of "Dehnel's phenomenon" on cognition and behavior, a broader understanding of the shrew's hunting sense can be obtained.
+This research project was part of my MSc in computational ecology, and it aims to understand the dominant sense used by the Etruscan shrew to find prey during the summer. To achieve this, a 3D markerless pose estimation tool based on transfer learning with deep neural networks is employed. This tool enables the tracking and modeling of the shrew's movement, allowing for the analysis of behaviors such as foraging and a comparison between different seasons when the shrew's brain size varies. By investigating the impact of "Dehnel's phenomenon" on cognition and behavior, a broader understanding of the shrew's hunting sense can be obtained.
 
 ## Repository Structure
 - `eating shrew.mp4`: This file contains the unlabeled video, where body parts of the shrew have not annotated.
-- `main.py`: This is the main script used for analyzing the feeding shrew data. It performs various tasks such as creating a new project, extracting frames, labeling body parts, training the network, analyzing videos, and plotting the results.
+- `main.py`: This is the main script used for analyzing the feeding shrew data. It performs various tasks such as creating a new project, extracting frames, labeling body parts, analyzing videos, and plotting the results.
 - `DLC-CPU.YAML`: This YAML file specifies the requirements for running DeepLabCut on a CPU. It contains the necessary configurations and dependencies.
 - `plots`: The generated plots during the analysis. It includes the plots of body parts location in time, body parts movement, and nose tip 3D movement.
 - `README.md`: This markdown file serves as the summary of the project. It provides an overview of the project, the results obtained from the analysis, and a discussion of the findings.
-- `config.yaml`: This DeepLabCut configuration file is used for labeling and analysis. It contains parameters for labeling the body parts to be tracked and specifying the training and analysis settings.
+- `config.yaml`: This DeepLabCut configuration file is used for labeling and analysis. It contains parameters for labeling the body parts to be tracked and specifying the training and analysis settings.  
+>**Note**: The training of the network was done on a GPU, provided by google colab by "DeepLabCut" package: https://colab.research.google.com/github/DeepLabCut/DeepLabCut-core/blob/tf2.2alpha/Colab_TrainNetwork_VideoAnalysis_TF2.ipynb
 
 ## Data
 Two data files were used for this project. The first file contained a video of a shrew preying on a mealworm, which was analyzed using the 'Deeplabcut' package [4]. This package, based on deep learning methods, facilitated the identification of specific organs related to sensory activity, such as the nose tip (smell), whiskers (sensing), and ears (hearing). The second was a config file that contained the parameters for the analysis, such as the labeling of body parts and the number of frames to extract. The data obtained from this analysis were saved in a CSV file for further investigation.
@@ -41,7 +42,7 @@ The analyzed data, which includes the predicted positions of the body parts, is 
 
 ## Results and Discussion
 <div align="center">
-  <img src="Images/body-parts-location-in-time.png" width="500" height="320">
+  <img src="plots/body-parts-location-in-time.png" width="500" height="320">
   <p><strong>Figure 1: Body parts location in time</strong></p>
 </div>
 
@@ -52,7 +53,7 @@ The magnitude of changes in the coordinates of a body part serves as an indicato
 This analysis provides valuable insights into the shrew's sensory perception and its reliance on specific body parts during the hunting process. By examining the body parts' location trends, we can gain a deeper understanding of the shrew's behavior and the role played by different sensory organs.
 
 <div align="center">
-  <img src="Images/Body-parts-movement.png" alt="Body parts movement" width="500" height="320">
+  <img src="plots/Body-parts-movement.png" alt="Body parts movement" width="500" height="320">
   <p><strong>Figure 2: Body parts movement</strong></p>
 </div>
 
@@ -68,7 +69,7 @@ While other body parts also exhibit movement, the nose-tip's dominance in terms 
 By identifying the body part with the highest movement, we gain valuable insights into the shrew's sensory hierarchy and the specific sense it utilized most prominently during the hunting behavior. In this case, the nose-tip's extensive movement highlights the importance of olfaction in the shrew's hunting strategy.
 
 <div align="center">
-  <img src="Images/Nose-tip-3D-movement.png" width="500" height="320">
+  <img src="plots/Nose-tip-3D-movement.png" width="500" height="320">
   <p><strong>Figure 3: Nose-tip 3D movement</strong></p>
 </div>  
 
