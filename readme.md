@@ -1,7 +1,5 @@
 # Hunting-Sense
-<div align="center">
-  <img src=https://cdn.myportfolio.com/32296834-5246-4001-b397-8c8d06fc8c2b/66abb30c-4723-422f-90ce-0289dfb41d9e_rw_1200.gif?h=f2ad72c47b7a79bb861e61b6584f881f alt="Body parts movement" width="500" height="320">
-</div>
+![Alt Text](https://cdn.myportfolio.com/32296834-5246-4001-b397-8c8d06fc8c2b/66abb30c-4723-422f-90ce-0289dfb41d9e_rw_1200.gif?h=f2ad72c47b7a79bb861e61b6584f881f)
 
 ## Overview
 The Etruscan shrew (*Suncus etruscus*) is considered the smallest extant mammal, with an average mass of less than 2g [1]. Due to its extremely small size, the Etruscan shrew has a large surface-to-volume ratio, resulting in significant heat loss to the environment. To maintain a constant body temperature, it must consume about 1.5-2.9 times its own body weight in food per day, making it the mammal with the highest mass-specific energy consumption [2].
