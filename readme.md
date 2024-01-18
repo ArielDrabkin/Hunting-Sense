@@ -1,6 +1,7 @@
 # Hunting-Sense
+
 <div align="center">
-    <a href="https://youtu.be/9I0iE0lmb7M"><img src="plots/huntingshrew.jpg" alt="Video Thumbnail" width="500" height="320">  </a>  
+    <a href="https://youtu.be/9I0iE0lmb7M"><img src="[](https://cdn.myportfolio.com/32296834-5246-4001-b397-8c8d06fc8c2b/66abb30c-4723-422f-90ce-0289dfb41d9e_rw_1200.gif?h=f2ad72c47b7a79bb861e61b6584f881f)" alt="Video Thumbnail" width="500" height="320">  </a>  
     <p><em>Click for the full video</em></p>
 </div>
 
