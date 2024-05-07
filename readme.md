@@ -2,6 +2,9 @@
 ![Demo](plots/Demo.gif)
 
 ## Overview
+
+Ellen is here
+
 The Etruscan shrew (*Suncus etruscus*) is considered the smallest extant mammal, with an average mass of less than 2g [1]. Due to its extremely small size, the Etruscan shrew has a large surface-to-volume ratio, resulting in significant heat loss to the environment. To maintain a constant body temperature, it must consume about 1.5-2.9 times its own body weight in food per day, making it the mammal with the highest mass-specific energy consumption [2].
 
 This research project was part of my MSc in computational ecology, and it aims to understand the dominant sense used by the Etruscan shrew to find prey during the summer. To achieve this, a 3D markerless pose estimation tool based on transfer learning with deep neural networks is employed. This tool enables the tracking and modeling of the shrew's movement, allowing for the analysis of behaviors such as foraging and a comparison between different seasons when the shrew's brain size varies. By investigating the impact of "Dehnel's phenomenon" on cognition and behavior, a broader understanding of the shrew's hunting sense can be obtained.
