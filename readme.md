@@ -1,5 +1,9 @@
 # Hunting-Sense
-![Demo](plots/Demo.gif)
+
+<p align="center">
+  <img src="plots/Demo.gif" alt="Demo" width="600" />
+</p>
+
 
 ## Overview
 
