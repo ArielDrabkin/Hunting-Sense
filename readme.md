@@ -77,6 +77,10 @@ By identifying the body part with the highest movement, we gain valuable insight
 
   
 The third plot provides a 3D visualization of the nose-tip's movement throughout the video. The plot shows the spread of the nose-tip's movement in the x, y, and z directions. The plot also shows the nose-tip's trajectory, which indicates the direction of movement. The plot provides a visual representation of the nose-tip's movement which located around the prey.
+
+## Acknowledgements
+I would like to express my sincere gratitude to Prof. Pablo Blinder and Prof. Eran Levin for their contribution and support throughout this project, for their valuable guidance, extensive knowledge, and patient mentorship throughout the course of this research in all fields.
+
 ## References
 1. Fons, R., Sender, S., Peters, T., & Jürgens, K. D. (1997). Rates of rewarming, heart and respiratory rates and their significance for oxygen transport during arousal from torpor in the smallest mammal, the Etruscan shrew Suncus etruscus. *J. Exp. Biol.*, 200, 1451–1458.
 2. Akhlaq, H., Hishmi, J., & Talmale, S. (2017). New Record Of Suncus etruscus (Savi, 1822), The Pygmy White-toothed Shrew (soricidae: Soricomorpha: Mammalia) From Madhya Pradesh, India With Notes On Systematics, Status Of Records And Distribution Chee. *Vol.3, 54*.
